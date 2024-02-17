@@ -29,8 +29,14 @@ def caesar(plaintext: str, move: int) -> str:
 
 
 def main() -> None:
-    # TODO
-    pass
+    print("1.duplicate\n2.intersection\n3.caesar")
+    match int(input()):
+        case 1:
+            duplicate(input("str:"))
+        case 2:
+            intersection(input("a.str:"),input("b.str:"))
+        case 3:
+                caesar(input("str:"),input("move:"))
 
 
 if __name__ == '__main__':
