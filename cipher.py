@@ -24,8 +24,8 @@ def caesar(plaintext: str, move: int) -> str:
     Move 'plaintext' by 'move' characters. 'move' could be negative
     caesar('hello', 1) -> 'ifmmp'
     """
-    # TODO
-    pass
+    for i in plaintext:
+            print(ord(char(i)+1))
 
 
 def main() -> None:
